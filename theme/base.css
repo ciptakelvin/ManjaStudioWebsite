@@ -31,15 +31,21 @@ body {height: 5000px;background-color: #080D27;}
     left: 40px;
     top: 220px;
 }
+#RhythmCouple{
+    object-fit: cover;
+    height: 500px;
+}
 .vl {
     border-left: 1px solid white;
     height: 280px;
 }
 
-.cover img{
+.cover{
     top: 0px;
     z-index: -1;
     position: absolute;
+}
+.cover img{
     width: 100%;
 }
 .menu img {
