@@ -23,7 +23,7 @@ b {
 
 #sidebar {
     position: fixed;
-    top: 200px;
+    top: 120px;
     left: 60px;
 }
 #sidebar .current {
@@ -41,7 +41,7 @@ b {
 #sidebar .vl {
     position: fixed;
     left: 40px;
-    top: 220px;
+    top: 140px;
 }
 #Amerta{
     margin-top: 20vh;
