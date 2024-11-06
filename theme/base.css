@@ -40,6 +40,8 @@ ul.menu li.right {float: right;}
 @media screen and (max-width: 600px) {
   ul.menu li.right, 
   ul.menu li {float: none;}
+  ul .right {display: none;}
+  ul.menu img { display: block;margin-left: auto;margin-right: auto;}
 }
 
 .montserrat-alternates-thin {
