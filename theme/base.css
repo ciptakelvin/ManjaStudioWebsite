@@ -1,13 +1,28 @@
 * {
-    background-color: #080D27;
+
     color: white;
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
-body {margin: 0;}
+body {height: 1000px;background-color: #080D27;}
 
+#RhythmCouple .vl {
+    margin-left: 50px;
+    margin-top: 220px;
+}
+.vl {
+    border-left: 1px solid white;
+    height: 280px;
+  }
+
+.cover img{
+    top: 0px;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+}
 .menu img {
     margin-top: 7px;
     margin-left: 20px;
