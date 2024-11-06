@@ -114,6 +114,7 @@ ul.menu li.right {float: right;}
   ul.menu li {float: none;}
   ul .right {display: none;}
   ul.menu img { display: block;margin-left: auto;margin-right: auto;}
+  footer {margin: 20px;}
 }
 
 .montserrat-alternates-thin {
