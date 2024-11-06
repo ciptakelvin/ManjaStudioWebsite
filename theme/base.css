@@ -7,7 +7,19 @@
     padding: 0px;
 }
 
-body {height: 5000px;background-color: #080D27;}
+body {background-color: #080D27;}
+a{
+    text-decoration: none;
+    
+}
+a:hover {
+    color: orange;
+}
+b {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
 
 #sidebar {
     position: fixed;
@@ -42,13 +54,30 @@ body {height: 5000px;background-color: #080D27;}
     border-left: 1px solid white;
     height: 280px;
 }
+footer {
+    margin: 100px;
+    display: flex;
+    flex-wrap: wrap;
 
-.cover{
+}
+footer li{
+    padding: 5px;
+}
+footer ul{
+    flex-shrink: 0;
+    flex-grow: 1;
+    padding: 20px;
+    list-style-type: none;
+}
+footer a:hover{
+    color: orange;
+}
+.content{
     top: 0px;
     z-index: -1;
     position: absolute;
 }
-.cover img{
+.content img{
     width: 100%;
 }
 .menu img {
