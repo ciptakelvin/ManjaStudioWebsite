@@ -1,21 +1,40 @@
 * {
-
     color: white;
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin: 0px;
+    padding: 0px;
 }
 
-body {height: 1000px;background-color: #080D27;}
+body {height: 5000px;background-color: #080D27;}
 
-#RhythmCouple .vl {
-    margin-left: 50px;
-    margin-top: 220px;
+#sidebar {
+    position: fixed;
+    top: 200px;
+    left: 60px;
+}
+#sidebar .current {
+    color: white;
+}
+#sidebar h2{
+    color: #9e9e9e;
+    font-size: 16px;
+}
+#sidebar p{
+    color: #9e9e9e;
+    padding-top: 5px;
+    font-size: 12px;
+}
+#sidebar .vl {
+    position: fixed;
+    left: 40px;
+    top: 220px;
 }
 .vl {
     border-left: 1px solid white;
     height: 280px;
-  }
+}
 
 .cover img{
     top: 0px;
