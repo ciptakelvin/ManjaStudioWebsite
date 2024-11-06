@@ -6,7 +6,7 @@
     
 // }
 $(document).scroll(function () { 
-    var scroll = Math.floor($(window).scrollTop()/500);
+    var scroll = Math.floor($(window).scrollTop()/400);
     $("#sidebar h2").css("color","#9e9e9e")
     $("#sidebar p").css("color","#9e9e9e")
     $("#sidebar h2").eq(scroll).css("color","white")
