@@ -64,7 +64,6 @@ b {
     height: 280px;
 }
 footer {
-    background-color: black;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
