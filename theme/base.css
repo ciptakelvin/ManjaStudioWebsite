@@ -25,6 +25,7 @@ b {
     position: fixed;
     top: 120px;
     left: 60px;
+    display: none;
 }
 #sidebar .current {
     color: white;
