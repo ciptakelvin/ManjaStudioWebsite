@@ -32,7 +32,7 @@ b {
   object-fit: cover;
   top:0;
   z-index: -999;
-  filter: blur(0px);
+  filter: blur(0px) brightness(0.8);
 }
 #sidebar {
     position: fixed;
@@ -72,7 +72,6 @@ footer {
     margin: 100px;
     display: flex;
     flex-wrap: wrap;
-    background-color: #080D27;
 }
 footer li{
     padding: 5px;
