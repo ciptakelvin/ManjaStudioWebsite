@@ -5,6 +5,7 @@
 //     }
     
 // }
+var interval;
 $(document).ready(function () {
     $("#sidebar").hide();
     $("#sidebar h2").css("color","#9e9e9e");
@@ -20,7 +21,6 @@ $(document).scroll(function () {
     interval = setInterval(() => {
         $("#sidebar").fadeOut();
         didScroll = false;
-        console.log('Someone scrolled me!')
     }, 500);
     var scroll = Math.floor($(window).scrollTop()/400);
     $("#sidebar h2").css("color","#9e9e9e");
