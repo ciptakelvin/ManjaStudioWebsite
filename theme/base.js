@@ -27,9 +27,6 @@ $(document).scroll(function () {
     $("#sidebar p").css("color","#9e9e9e");
     $("#sidebar h2").eq(scroll).css("color","white");
     $("#sidebar p").eq(scroll).css("color","white");
-    if(scroll>1){
-        $(".ParallaxVideo video").css({'filter': 'blur(10px)'});
-    } else {
-        $(".ParallaxVideo video").css({'filter': 'blur(0px)'});
-    }
+    $(".ParallaxVideo video").css({'filter': 'blur('+$(window).scrollTop()/300+'px)'});
+
 });
