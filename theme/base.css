@@ -20,7 +20,18 @@ b {
     font-weight: 700;
     font-style: normal;
 }
-
+.ParallaxVideo{ 
+  height: 300px;
+  padding-bottom: 50px;
+  padding-top: 50px; 
+}
+.ParallaxVideo video{ 
+  min-width: 100%;
+  position: fixed;
+  top:0;
+  z-index: -999;
+  filter: blur(0px);
+}
 #sidebar {
     position: fixed;
     top: 120px;
@@ -59,7 +70,7 @@ footer {
     margin: 100px;
     display: flex;
     flex-wrap: wrap;
-
+    background-color: #080D27;
 }
 footer li{
     padding: 5px;
