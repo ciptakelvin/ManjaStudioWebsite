@@ -69,6 +69,7 @@ b {
     height: 280px;
 }
 footer {
+    background-color: black;
     margin: 100px;
     display: flex;
     flex-wrap: wrap;
