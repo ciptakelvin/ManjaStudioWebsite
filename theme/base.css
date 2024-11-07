@@ -20,10 +20,9 @@ b {
     font-weight: 700;
     font-style: normal;
 }
-.ParallaxVideo{
-  height: 100vh;
-}
+
 .ParallaxVideo video{
+  width: 100%;
   position: absolute;
   top:0;
   z-index: -999;
@@ -55,6 +54,7 @@ b {
 }
 #Amerta{
     width: 100%;
+    margin-top: 300px;
 }
 #RhythmCouple{
     object-fit: cover;
